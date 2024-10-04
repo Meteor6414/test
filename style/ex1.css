@@ -3,7 +3,7 @@ body{
     } 
     
 
-.white{    
+.White{    
         color:#fff;
     } 
     
@@ -47,4 +47,32 @@ header{
     padding-top: 0px;
     height: 30px;
     width: 80px;
+    float: left;
+    display: block;
+    text-align: center;padding-top: 5px;
+   }
+
+   #menu a:hover{
+        color: #f00;
+        background: linear-gradient(#000,#666);
+   }
+
+   #content{
+    width: 680px;
+    background-color: #fff;
+   }
+
+   #left{
+    float: left;
+    width: 200px;
+    padding-left: 10px;
+   }
+
+   #left h2{
+    background: linear-gradient(#ddd,#888,#000);
+   }
+
+   #right{
+    float:right;
+    width: 450px;
    }
