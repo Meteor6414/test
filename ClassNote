@@ -1,3 +1,5 @@
+課堂筆記:
+
 2024/09/13
 開始使用
 註冊GitHub帳號
@@ -5,6 +7,21 @@
 登入GitHub
 下載繁體中文模組
 連接GitHub
+
+終端機
+打上git config --global user.name 帳戶名
+打上git config --global user.email 電子郵件
+
+好用網站W3Schools
+https://www.w3schools.com/
+
+2024/09/20
+<> ->標籤
+</> -> 結束標籤
+<body>網頁內容</body>
+<href>超連結
+html屬性一定寫在起始標籤
+style ->樣式 -> link rel(css)
 
 常用快捷符號 
 # -> x# -> <x id=""></x>
@@ -16,7 +33,7 @@
     <x></x>
     <x></x>
 
-x#>y*3>z -> 
+x#>y*3>z -> x#包含y*3包含z
     <x id="">
         <y>
             <z></z>
@@ -29,8 +46,13 @@ x#>y*3>z ->
         </y>
     </x>
 
-2024/09/20
 
 2024/09/27
+好用程式Live Server 5.7.9
+
+class -> .
+margin ->邊界
+css:取得外部連結 ->urL() <-加.到上一層資料夾
 
 2024/10/04
+hover -> 滑鼠碰到
