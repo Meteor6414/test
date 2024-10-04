@@ -50,9 +50,29 @@ x#>y*3>z -> x#包含y*3包含z
 2024/09/27
 好用程式Live Server 5.7.9
 
+div -> 分區
+meta:kw -> 網站搜尋關鍵詞
 class -> .
 margin ->邊界
+css ->網站外觀集中編輯 -> link rel(css)
 css:取得外部連結 ->urL() <-加.到上一層資料夾
+background: ->背景
+color: ->顏色
+form action ->輸入框
+網站 -> 更多工具 ->開發人員工具
+
 
 2024/10/04
-hover -> 滑鼠碰到
+hover -> 滑鼠碰到 ->
+#menu a:hover{
+        color: #f00;
+        background: linear-gradient(#000,#666);
+   } ->滑鼠碰到時變色
+
+圓角框 ->
+   {
+    background: linear-gradient(#ddd,#888,#000);
+        border: 2px solid #ddd,#888,#000;
+        border-radius: 12px;
+        padding: 5px;
+   }
