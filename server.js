@@ -6,6 +6,11 @@ var server = express();
 //web root
 server.use(express.static(__dirname+"/AgencyProject"));
 
+server.get("/profolio", (req,res)=>{
+      //DB        
+      res.send("Profolio");
+      })
+
 server.listen(80,()=>{
     console.log("Server is running at prot 80.");
 })
